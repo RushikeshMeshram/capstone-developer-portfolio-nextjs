@@ -1,25 +1,25 @@
-Name : Rushikesh Meshram
-Company : TCS
+###Name : Rushikesh Meshram
+##Company : TCS
 
-.env
-DATABASE_URL
+##.env
+#DATABASE_URL
 
-.env.local
-NEXTAUTH_SECRET
-NEXTAUTH_URL
+##.env.local
+#NEXTAUTH_SECRET
+#NEXTAUTH_URL
 
-GITHUB_ID
-GITHUB_SECRET
+#GITHUB_ID
+#GITHUB_SECRET
 
 ## Prisma Setup
 
-npm install prisma --save-dev
-npm prisma init --datasource-provider postgresql
-npx prisma format
-npx prisma migrate dev --name init or npx prisma db push
-npm i @prisma/client
-npx prisma generate
-npx prisma db push //update schema
+#npm install prisma --save-dev
+#npm prisma init --datasource-provider postgresql
+#npx prisma format
+#npx prisma migrate dev --name init or npx prisma db push
+#npm i @prisma/client
+#npx prisma generate
+#npx prisma db push //update schema
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
